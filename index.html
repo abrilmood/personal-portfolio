@@ -1,0 +1,105 @@
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet"> 
+    </head>
+    <body id="body-h" onload="hacerGrande(2)">
+        <header>
+            
+            <nav id="navbar">
+                <a class="nav-link" href="#welcome">Acerca de mi</a>
+                <a class="nav-link" href="#proyectos">Mis proyectos</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </nav>
+        </header>
+        
+        <section id="welcome">
+            <h1 id="saludo-h1">Hola mundo, soy Abril</h1>
+            <h2 id="saludo-h2">A web developer</h2>
+        </section>
+        
+
+        <section id="proyectos">
+            <div id="project-tile">
+                
+               
+    
+                <h1 class="proyectos-h1">Estos son algunos de mis proyectos</h1>   
+                <hr>
+            </div>
+            <div class="container">
+
+                 <!--  Flechas anterior y siguiente--> 
+           
+                <div  class = "imagenGrande">
+                    <!--<div  class="texto">Brazo</div>-->
+                    <img id = "imagenAgrandada" src="Mini.jpg" alt="Página tributo a Mini">
+                </div>
+                <div class="proyectos-grid">
+                    <img onclick="hacerGrande(0)"  class="img-grid" src="Mini.jpg" alt="Página tributo a Mini">
+                    <!-- <h1 class="grid-h1">Página tributo a Mini</h1> -->
+                    <img onclick="hacerGrande(1)" class="img-grid" src="Helados.jpg" alt="Página de helados">
+                    <img onclick="hacerGrande(2)"class="img-grid" src="Ejercicios.jpg" alt="Página de ejercicios">
+                    <img onclick="hacerGrande(3)"class="img-grid" src="Pan.jpg" alt="Encuesta de pan">
+                </div> 
+
+                <a class="previo" onclick="cambiarImagen(-1)"> &#10094; </a>
+            
+                <a class="siguiente" onclick="cambiarImagen(1)"> &#10095; </a>  
+
+          
+            
+               
+                             
+            </div>
+            
+            
+            
+        </section>
+
+        <section id="misProyectosGithub">
+            <div class= " proyectos">
+               
+                <h1 class="proyectos-h1">Proyectos de github</h1>
+            
+            <a id=paraLinks >
+                <div id="divDeProyectos" class= "proyectos-grid" >
+                    
+                </div>
+            </a>   
+        </div>
+        </section>
+        
+
+        <section id="contacto">
+            <h1 id="contacto-h1">¡Trabajemos juntos!</h1>
+            <nav id=navbar-contacto>
+                <a target = "_blank" class="nav-link-c" href="https://www.instagram.com/abril110993/">
+                    <img id="logo-inst" src="https://png.pngtree.com/element_our/md/20180520/md_5b012516425c1.jpg" alt="Logo instagram">
+                    Mi instagram
+                </a>
+                <a class="nav-link-c" href="mailto: abrilfrt@gmail.com">
+                    <img id="logo-email" src="https://pluspng.com/img-png/email-icon-png-download-icons-logos-emojis-email-icons-2400.png">
+                    Mi correo
+                </a>
+                <a target = "_blank" class="nav-link-c" href="https://github.com/abrilmood" >
+                    <img id="logo-email" src="https://avatars.githubusercontent.com/abrilmood">
+                    Github
+                </a>
+
+            </nav>
+        </section> 
+        
+
+    </body>
+</html>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="personalPortfolio.css" media="screen"/>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="personalPortfolio.js"></script>
