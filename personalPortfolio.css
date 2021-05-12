@@ -128,7 +128,9 @@ hr{
 .proyectos-grid{
     color: #2c3c5b;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 150%;
+    font-size: large;
+    font-weight: 200;
+}
 }
 /*.cajitaDeProyectos {
     display: grid;
