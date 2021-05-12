@@ -96,6 +96,11 @@ hr{
     flex-direction: row;
     flex-wrap: nowrap;
     text-decoration: none;
+    color: #2c3c5b;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
     
 }
 
@@ -125,13 +130,7 @@ hr{
     
 
 }
-.proyectos-grid{
-    color: #2c3c5b;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: large;
-    font-weight: 200;
-}
-}
+
 /*.cajitaDeProyectos {
     display: grid;
     
