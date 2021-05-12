@@ -58,17 +58,7 @@ var names = []
  } while(i< data.length)
 
 
-//  for(var aux=0; aux < data.length; aux++){
-//   console.log(data[aux].name)
-//  }
 
-//  for(each_data of data){
-//   console.log(each_data.name)
-//  }
-
-// data.forEach(datitas => {
-//   console.log(datitas.name)
-// })
 
 });
 
