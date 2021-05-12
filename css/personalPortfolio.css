@@ -95,8 +95,14 @@ hr{
     padding-top: 1cm;
     flex-direction: row;
     flex-wrap: nowrap;
+    
+    color: #2c3c5b;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+    font-weight: 200;
     text-decoration: none;
     
+
 }
 
 .img-grid{
