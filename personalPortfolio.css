@@ -54,7 +54,7 @@ header{
     padding-right: 0.5cm;
 }
 
-a:hover{
+a.nav-link:hover{
     background-color:#e4a484; 
 }
 
@@ -129,6 +129,11 @@ hr{
     margin-top: -1cm;
     
 
+}
+a.proyectos-grid:hover{
+    color:#f2ebde;
+    font-size: 120%;
+    width: 30%;
 }
 
 /*.cajitaDeProyectos {
