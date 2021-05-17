@@ -67,6 +67,15 @@ a.nav-link:hover{
     
 }
 
+.img-grid{
+  
+    
+    max-width: 200px; 
+    height: 140px;
+    cursor: pointer;
+    
+}
+
 .proyectos-h1{
     text-align: center;
     padding-top: 2cm;
@@ -104,14 +113,7 @@ hr{
     
 }
 
-.img-grid{
-  
-    
-    max-width: 200px; 
-    height: 140px;
-    cursor: pointer;
-    
-}
+
 
 .grid-h1{
     text-align: center;
