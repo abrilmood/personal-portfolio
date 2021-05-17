@@ -58,6 +58,15 @@ a.nav-link:hover{
     background-color:#e4a484; 
 }
 
+.img-grid{
+  
+    
+    max-width: 200px; 
+    height: 140px;
+    cursor: pointer;
+    
+}
+
 #proyectos{
     background-color: #4c8a86 ;
     height: 100%;
@@ -67,14 +76,7 @@ a.nav-link:hover{
     
 }
 
-.img-grid{
-  
-    
-    max-width: 200px; 
-    height: 140px;
-    cursor: pointer;
-    
-}
+
 
 .proyectos-h1{
     text-align: center;
