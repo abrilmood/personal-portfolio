@@ -95,7 +95,17 @@ hr{
     color:#f2ebde;
 }
 
-
+.proyectos-con-imagen{
+    
+    width: 100%;
+    height: 40%;
+    display:flex;
+    justify-content: center;
+    padding-top: 1cm;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    
 
 .proyectos-grid{
     
